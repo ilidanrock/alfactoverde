@@ -215,7 +215,7 @@ export default function CarbonFootprintCalculator() {
     const { level, color, bg, message } = getFootprintLevel(footprint)
 
     return (
-      <div className="h-screen w-screen bg-gradient-to-br from-[#3c3c84] via-[#234097] to-[#623272] relative overflow-hidden flex items-center justify-center p-4">
+      <div className=" w-screen bg-gradient-to-br from-[#3c3c84] via-[#234097] to-[#623272] relative overflow-hidden flex items-center justify-center p-4">
         {/* Animated background elements */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-20 w-72 h-72 bg-[#a2c4e2]/10 rounded-full blur-3xl animate-pulse"></div>
@@ -337,7 +337,7 @@ export default function CarbonFootprintCalculator() {
           <div className="flex items-center justify-center gap-2 mb-1">
             <div className="relative">
               <Leaf className="h-7 w-7 text-green-400 animate-bounce" />
-              <Sparkles className="h-3.5 w-3.5 text-[#dad6d9] absolute -top-1 -right-1 animate-pulse" />
+              <Sparkles className="h-3.5 w-3.5 text-yellow-400 absolute -top-1 -right-1 animate-pulse" />
             </div>
             <h1 className="text-2xl font-bold bg-gradient-to-r from-[#a2c4e2] via-[#2f86c8] to-[#993c65] bg-clip-text text-transparent">
               ALFACTO VERDE
